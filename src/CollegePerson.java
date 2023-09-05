@@ -10,6 +10,7 @@ public class CollegePerson {
     }
 
     public void goToCollege() {
-        System.out.println(name + " " + surname + "\nCollege ID: " + collegeId);
+        System.out.println(name + " " + surname +
+                "\nCollege ID: " + collegeId);
     }
 }
