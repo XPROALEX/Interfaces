@@ -8,11 +8,11 @@ public class Assistant extends CollegePerson implements TeachingPerson, Learning
 
     @Override
     public void studyAtHome() {
-        System.out.println("Student! (Assistant)");
+        System.out.println("Is a student! (Assistant)");
     }
 
     @Override
     public void teachToOtherPeople() {
-        System.out.println("Professor! (Assistant)");
+        System.out.println("Is a professor! (Assistant)");
     }
 }

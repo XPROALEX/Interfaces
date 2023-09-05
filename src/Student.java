@@ -10,7 +10,7 @@ public class Student extends CollegePerson implements LearningPerson {
 
     @Override
     public void studyAtHome() {
-        System.out.println("Student!");
+        System.out.println("Is a student!");
     }
 
 }
